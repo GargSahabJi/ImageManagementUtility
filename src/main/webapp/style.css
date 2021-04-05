@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+html, body {
+	margin: 0%;
+	padding: 0%;
+}
+
+.head-text {
+	font-size: 20px;
+	font-weight: bold;
+	height: 60px;
+	padding: 1em;
+}
+
+.container {
+	padding-top: .5%;
+}
+
+.uploaded-images {
+	height: 60vh;
+	overflow-y: auto;
+	overflow-x: auto;
+	scrollbar-width: thin;
+}
+
+#thead-style {
+	background: #000099;
+	color: white
+}
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+/* setting the text-align property to center*/
+td, th {
+	padding: 5px;
+	text-align: center;
+}
